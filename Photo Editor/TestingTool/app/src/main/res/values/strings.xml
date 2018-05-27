@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Testing Tool</string>
+    <string name="Sign_name">Sign In</string>
+    <string name="Trigger_1">Random</string>
+    <string name="Trigger_2">Rename</string>
+    <string name="Trigger_3">Look Up</string>
+    <string name="Trigger_4">Edit</string>
+    <string name="Main_Instruct">Welcome to Team 10\'s Photo Editor. Please select the Activity you would like to open. </string>
+    <string name="Rand_welcome">Hello, this is the Random Activity</string>
+    <string name="look_welcome">Hello, this is the Look Up Activity</string>
+    <string name="original">Original</string>
+    <string name="grey">Grey scale</string>
+    <string name="vivid">Vivid</string>
+    <string name="look_up_prompt">Please tell us the name photo you would like to edit!</string>
+    <string name="Search">Search</string>
+</resources>

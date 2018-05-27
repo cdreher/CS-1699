@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.group10.photoeditor.EditActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="305dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="358dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/cathy" />
+
+        <TextView
+            android:id="@+id/photoLabelTextView"
+            android:layout_below="@id/imageView"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="35dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:textSize="11dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/originalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/photoLabelTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="12dp"
+            android:text="ORIGINAL" />
+        <Button
+            android:id="@+id/greyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/photoLabelTextView"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:text="GREYSCALE" />
+        <Button
+            android:id="@+id/vividButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/photoLabelTextView"
+            android:text="VIVID" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:onClick="next"
+            android:text="Next"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

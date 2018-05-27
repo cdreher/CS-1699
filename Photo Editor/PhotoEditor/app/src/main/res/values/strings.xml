@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Photo Editor</string>
+    <string name="log_in_Welcome">Welcome to Team 10\'s Photo Editor!</string>
+    <string name="Trigger_1">Random</string>
+    <string name="Trigger_2">Rename</string>
+    <string name="Trigger_3">Look Up</string>
+    <string name="Trigger_4">Edit</string>
+    <string name="Main_Instruct">Welcome to Team 10\'s Photo Editor. Please select the Activity you would like to open. </string>
+    <string name="Rand_welcome">Hello, this is the Random Activity</string>
+    <string name="look_welcome">Hello, this is the Look Up Activity</string>
+    <string name="original">Original</string>
+    <string name="grey">Grey scale</string>
+    <string name="vivid">Vivid</string>
+    <string name="look_up_prompt">Please tell us the name photo you\'d like to edit!</string>
+    <string name="Search">Search</string>
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">YOUR_APP_ID</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">YOUR_CONSUMER_KEY</string>
+    <string name="twitter_consumer_secret" translatable="false">YOUR_CONSUMER_SECRET</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_in">Sign In</string>
+    <string name="rename_prompt">New Photo Name:</string>
+    <string name="filename">Filename</string>
+    <string name="event_promt">Enter the Sport:</string>
+    <string name="opponent_name">Enter the name of Opponent:</string>
+</resources>

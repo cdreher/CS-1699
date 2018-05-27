@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saiko.testingtool.MainActivity"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Main_Instruct"
+        android:textColor="@color/textColor"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/rand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/unselected"
+        android:onClick="random"
+        android:text="@string/Trigger_1" />
+
+    <Button
+        android:id="@+id/rename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/unselected"
+        android:onClick="rename"
+        android:text="@string/Trigger_2" />
+
+    <Button
+        android:id="@+id/lookup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/unselected"
+        android:onClick="lookUp"
+        android:text="@string/Trigger_3" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/unselected"
+        android:onClick="edit"
+        android:text="@string/Trigger_4" />
+</LinearLayout>
