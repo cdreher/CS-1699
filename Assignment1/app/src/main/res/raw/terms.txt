@@ -1,0 +1,20 @@
+Android:#1 mobile OS worldwide, and now #1 overall OS worldwide!
+Oreo:The latest version of Android OS
+Virtual Device:emulator/software simulation of an Android device
+Activity:A single screen, or user interface, on your app
+Intent:an object representing a desired action
+Toast:a pop-up message that appears for a short time
+File:Objects that represent a file or directory
+InputStream/OutputStream:flows of data bytes from/to a source or destination
+Scanner:used to read from a stream, file, or to tokenize the words of a string
+ListView:an android collection of selectable choices
+Spinner:a drop-down menu of selectable choices
+Adapter:Helps turn list data into list view items
+Layout:the manner in which your app will be displayed/formatted
+Activity Stack:Set of activities visited most recently.
+Toolbar:A top-level menu of actions in an activity
+Notification:A message displayed to the user outside of any app's UI
+Dialog:A pop-up UI that interrupts your activity
+Alarm:Mechanism for sending Intents at some point in the future
+onCreate():Called as activity is being initialized
+onDestroy():Called when entire app is being shut down/unloaded from memory

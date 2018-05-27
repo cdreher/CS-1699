@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="MainActivity"
+    android:screenOrientation="portrait"
+    android:configChanges = "keyboardHidden|orientation|screenSize"
+    tools:context="assignments.cs1699.assignment2.TriviaGameActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/signOutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:onClick="signOut"
+            android:text="Sign out"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Android Trivia game"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:onClick="playGame"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:text="PLAY"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+        <Button
+            android:id="@+id/addWordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/playButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="addWord"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:text="Add Word"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+        <Button
+            android:id="@+id/scoreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addWordButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="scoreHistory"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:text="Score History"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <Button
+            android:id="@+id/topTenButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scoreButton"
+            android:layout_centerHorizontal="true"
+            android:onClick="openTopTen"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:text="Top Ten Players"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="295dp" />
+
+        <Switch
+            android:id="@+id/textToSpeechSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/topTenButton"
+            android:layout_alignStart="@+id/topTenButton"
+            android:layout_below="@+id/titleTextView"
+            android:layout_marginTop="21dp"
+            android:checked="false"
+            android:text="Text to Speech" />
+
+        <Button
+            android:id="@+id/dbTermsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scoreButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="77dp"
+            android:enabled="false"
+            android:onClick="uploadTerms"
+            android:text="add terms to DB"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/camera_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/titleTextView"
+            android:layout_toEndOf="@+id/playButton"
+            android:layout_toRightOf="@+id/playButton" />
+
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/signOutButton"
+            android:layout_marginLeft="20dp"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
