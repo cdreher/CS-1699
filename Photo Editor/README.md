@@ -26,13 +26,3 @@
 * #E0E0E0 - Gray **(unselected button)**
 * #B39DDB - Light Purple **(EditText bottom line)**
 
-## Members
-* Sai Konduru
-* Allen Poon 
-* Kevin Klute
-* Collin Dreher 
-* Justin Keenan 
-
-## Google account credentials
-* u: group10.cs1699@gmail.com
-* p: !PhotoEditor1
