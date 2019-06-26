@@ -26,7 +26,7 @@ The user has the capability to add a word to the vocab database. They can add a 
 </p>
 
 ## Score History
-After each game, the user's score history is stored with a timestamp and total score.
+After each game, the user's score history is stored with a timestamp and total score. The user's personal record for highest score is calculated against all other scores, and displayed.
 
 <p align="center">
   <img src="readme-images/scores.PNG" width="250" />
